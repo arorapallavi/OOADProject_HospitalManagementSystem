@@ -1,0 +1,57 @@
+
+.register-tab {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.register-tab h1 {
+  font-size: 24px;
+  text-align: center;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid #000;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+
+th {
+  background-color: #007bff;
+  color: #fff;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+th, td, .centered {
+  text-align: center;
+}
+
+
+.centered div {
+  font-weight: bold;
+  font-size: 18px;
+  color: #f00;
+}

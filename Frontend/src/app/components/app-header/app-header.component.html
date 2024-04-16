@@ -1,0 +1,23 @@
+<div class="HMSName">
+    <marquee direction="left" scrollamount="8">
+        <h1>HOSPITAL MANAGEMENT SYSTEM
+
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			NAME: Pallavi, Onkar, Tania, Niveditha
+
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          SRN :PES2UG21CS360, PES2UG21CS353, PES2UG21CS351, PES2UG21CS313
+
+		</h1>
+    </marquee>
+</div>
+<div class="main">
+
+    <div  (click)="gotourl('')" [class.selected]="url === '/'">Home</div>
+    <div (click)="gotourl('admin-login')" [class.selected]="url === '/admin-login'">AdminLogin</div>
+    <div (click)="gotourl('doctor-login')" [class.selected]="url === '/doctor-login'">DoctorLogin</div>
+    <div (click)="gotourl('patient-login')" [class.selected]="url === '/patient-login'">PatientLogin</div>
+    <div (click)="gotourl('about-us')" [class.selected]="url === '/about-us'">AboutUs</div>
+    <div (click)="gotourl('contact-us')" [class.selected]="url === '/contact-us'">Contactus</div>
+</div>
+

@@ -1,0 +1,8 @@
+
+
+<div class="bg-image"
+
+style="background-image: url('https://static.vecteezy.com/system/resources/thumbnails/004/578/683/small_2x/a-patient-consults-a-doctor-and-nurse-free-vector.jpg');
+            height: 100vh">
+            <div style="color: black;"><h1>Welcome {{userName}}</h1></div>
+</div>

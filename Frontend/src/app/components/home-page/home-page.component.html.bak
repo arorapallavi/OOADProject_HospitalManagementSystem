@@ -1,0 +1,10 @@
+<div class="bag-image"
+     style="background-image: url('https://wallpaperaccess.com/full/6124597.jpg');
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;">
+
+  <button [routerLink]="['/patient-register']" class="custom-button">Register</button>
+  <button [routerLink]="['/patient-login']" class="custom-button custom-button1">Login</button>
+</div>

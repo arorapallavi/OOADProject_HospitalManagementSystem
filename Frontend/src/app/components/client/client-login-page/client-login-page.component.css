@@ -1,0 +1,76 @@
+/* Custom CSS for the Login Form */
+
+/* Style for the overall section */
+.vh-100 {
+  height: 100vh;
+}
+
+/* Style for the container */
+.container-fluid {
+  padding: 0;
+}
+
+/* Style for the left column with the form */
+.col-sm-6.text-black {
+  background-color: #f8f8f8;
+  padding: 0;
+}
+
+/* Style for the form wrapper */
+.d-flex.align-items-center.h-custom-2 {
+  min-height: 50vh;
+  padding: 0 20px;
+}
+
+/* Style for the form */
+form {
+  width: 23rem;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for form labels */
+.form-label {
+  font-size: 14px;
+}
+
+/* Style for form inputs */
+.form-control-lg {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Style for error messages */
+.error-message {
+  color: #ff0000;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* Style for the Login button */
+.btn-info.btn-lg.btn-block {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  margin-top: 10px;
+}
+
+/* Style for the "Register here" and "Forgot password" links */
+.new-user-register .sign-up {
+  cursor: pointer;
+  color: #007bff;
+}
+
+/* Style for the right column with the image */
+.col-sm-6.px-0.d-none.d-sm-block img {
+  object-fit: cover;
+  object-position: left;
+  width: 100%;
+  height: 100vh;
+}

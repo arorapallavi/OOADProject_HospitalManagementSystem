@@ -1,0 +1,57 @@
+/* Style the register tab container */
+.register-tab {
+  text-align: center;
+  margin: 20px;
+}
+
+/* Style the heading */
+.register-tab h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Style the message when there are no appointments */
+.register-tab div.main.centered div {
+  font-size: 16px;
+  color: #888;
+  margin-top: 20px;
+}
+
+/* Style the table */
+.register-tab table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+  margin-top: 20px;
+}
+
+/* Style table headers */
+.register-tab th {
+  background-color: #f2f2f2;
+  padding: 10px;
+  font-weight: bold;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+/* Style table rows */
+.register-tab td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+/* Style the Prescription button */
+.register-tab button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+/* Style the Prescription button on hover */
+.register-tab button:hover {
+  background-color: #0056b3;
+}

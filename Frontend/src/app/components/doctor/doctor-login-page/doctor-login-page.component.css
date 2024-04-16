@@ -1,0 +1,66 @@
+/* Custom CSS for the Doctor Sign-In Form */
+
+/* Style for the card wrapper */
+.card.mb-3 {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for the image column */
+.col-lg-4.d-none.d-lg-flex img {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/* Style for the card body */
+.col-lg-8 .card-body {
+  padding: 5% !important; /* Maintain some padding even on smaller screens */
+}
+
+/* Style for the form labels */
+.form-label {
+  font-size: 16px;
+  color: #333; /* Dark text color */
+}
+
+/* Style for form inputs */
+.form-control {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Style for error messages */
+.error-message {
+  color: #ff0000;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* Style for the "Sign up Now" and "forgot password?" links */
+.new-user-register .sign-up,
+.sign-up {
+  cursor: pointer;
+  color: #007bff; /* Blue link color */
+}
+
+/* Style for the Sign-in button */
+.btn.btn-primary.btn-block.mb-4 {
+  background-color: #007bff; /* Blue button background color */
+  color: #fff; /* White text color */
+  font-size: 18px;
+  border: none;
+}
+
+/* Disable the Sign-in button when required fields are empty */
+.btn.btn-primary.btn-block.mb-4:disabled {
+  background-color: #ccc; /* Grayed-out button */
+  cursor: not-allowed;
+}

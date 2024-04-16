@@ -1,0 +1,32 @@
+/* CSS for the HMSName div */
+.HMSName {
+  text-align: center; /* Center-align the text */
+  background-color: #fdfeff; /* Set background color */
+  color: #040303; /* Set text color */
+  padding: 10px; /* Add some padding */
+}
+
+/* CSS for the h1 element inside the HMSName div */
+.HMSName h1 {
+  font-size: 24px; /* Set font size */
+}
+
+/* CSS for the main div */
+.main {
+  display: flex; /* Use flexbox layout */
+  justify-content: space-between; /* Space elements evenly horizontally */
+  background-color: #f4f4f4; /* Set background color */
+  padding: 10px; /* Add some padding */
+}
+
+/* CSS for the individual menu items inside the main div */
+.main div {
+  padding: 10px; /* Add padding to each menu item */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* CSS for the selected menu item */
+.main div.selected {
+  background-color: #007bff; /* Change background color for selected item */
+  color: #fff; /* Change text color for selected item */
+}

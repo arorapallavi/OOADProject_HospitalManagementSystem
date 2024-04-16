@@ -1,0 +1,79 @@
+/* Custom CSS for the Registration Form */
+
+/* Style for the overall section */
+.h-100.bg-dark {
+  height: 100vh;
+  background-color: #333; /* Dark background color */
+}
+
+/* Style for the container */
+.container.py-5.h-100 {
+  padding: 0;
+}
+
+/* Style for the card wrapper */
+.card.card-registration {
+  background-color: #fff; /* White background color for the card */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for the left column with the image */
+.col-xl-6.d-none.d-xl-block img {
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/* Style for the card body */
+.card-body.p-md-5.text-black {
+  padding: 5% !important; /* Maintain some padding even on smaller screens */
+}
+
+/* Style for the form labels */
+.form-label {
+  font-size: 16px;
+}
+
+/* Style for form inputs */
+.form-control-lg {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Style for the "Gender" label */
+.d-md-flex.justify-content-start.align-items-center.mb-4.py-2 h6 {
+  font-size: 16px;
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+
+/* Style for the gender radio buttons */
+.form-check.form-check-inline.mb-0.me-4 {
+  font-size: 16px;
+}
+
+/* Style for the information message */
+.information {
+  font-size: 14px;
+  color: #888; /* Gray text color */
+  margin-top: 10px;
+}
+
+/* Style for the Signup button */
+.d-flex.justify-content-end.pt-3 .btn-warning.btn-lg.ms-2 {
+  background-color: #ffc107; /* Yellow background color for the button */
+  color: #333; /* Dark text color */
+  font-size: 18px;
+  border: none;
+}
+
+/* Disable the Signup button when required fields are empty */
+.d-flex.justify-content-end.pt-3 .btn-warning.btn-lg.ms-2:disabled {
+  background-color: #ccc; /* Grayed-out button */
+  cursor: not-allowed;
+}

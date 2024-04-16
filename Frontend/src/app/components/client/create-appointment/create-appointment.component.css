@@ -1,0 +1,62 @@
+/* Apply styles to the whole register-tab section */
+.register-tab {
+  margin: 20px auto; /* Center the form horizontally */
+  width: 80%; /* Set the width of the form */
+  background-color: #f7f7f7; /* Background color */
+  padding: 20px; /* Add padding */
+  border: 1px solid #ddd; /* Add a border */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+/* Apply styles to the centered divs within register-tab */
+.register-tab .centered {
+  text-align: center; /* Center-align text and elements */
+  margin-bottom: 10px; /* Add spacing between elements */
+}
+
+/* Apply styles to the h1 element */
+.register-tab h1 {
+  font-size: 24px; /* Set font size for the form title */
+  margin-bottom: 20px; /* Add spacing below the title */
+}
+
+/* Apply styles to the table */
+.register-tab table {
+  width: 100%; /* Make the table fill the container */
+  border-collapse: collapse; /* Collapse table borders */
+}
+
+/* Apply styles to table cells with class 'label' */
+.register-tab .label {
+  font-weight: bold; /* Make labels bold */
+}
+
+/* Apply styles to mat-form-field */
+.register-tab mat-form-field {
+  width: 100%; /* Make the input field fill its container */
+}
+
+/* Apply styles to input elements */
+.register-tab input[type="text"],
+.register-tab input[type="radio"],
+.register-tab select {
+  width: 100%; /* Make input elements fill their containers */
+  padding: 10px; /* Add padding to input elements */
+  margin-bottom: 10px; /* Add spacing between input elements */
+  border: 1px solid #ddd; /* Add a border */
+  border-radius: 4px; /* Add border radius */
+}
+
+/* Apply styles to the button */
+.register-tab button {
+  padding: 10px 20px; /* Add padding to the button */
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Text color */
+  border: none; /* Remove button border */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Apply hover effect to the button */
+.register-tab button:hover {
+  background-color: #0056b3; /* Button background color on hover */
+}

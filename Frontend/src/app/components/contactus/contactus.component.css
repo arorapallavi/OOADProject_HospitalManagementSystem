@@ -1,0 +1,39 @@
+/* Style the container for contact information */
+.contact_info {
+  background-color: #f7f7f7;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Style the contact items */
+.contact_info_item {
+  margin-bottom: 15px;
+}
+
+
+.contact_info_image img {
+  max-width: 30px;
+  margin-right: 10px;
+}
+
+/* Style the contact item titles */
+.contact_info_title {
+  font-weight: bold;
+  font-size: 16px;
+  color: #1ab6b6;
+}
+
+/* Style the contact item text */
+.contact_info_text {
+  font-size: 14px;
+  color: #722929;
+}
+
+
+/* Style the Google Map title */
+.contact_info_content .contact_info_title {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #0c0d0d;
+}
